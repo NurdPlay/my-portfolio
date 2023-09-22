@@ -1,0 +1,38 @@
+
+/* Center the skills container */
+.skill-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ffff;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
+  
+  /* Style the skill images */
+  .skill-container img {
+    width: 80px; /* Adjust the image width as needed */
+    margin: 10px; /* Add margin between images */
+  }
+  
+  /* Style the "Skills" header */
+  .skill-container h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+
+  @media (max-width: 576px) {
+    .skill-container {
+      padding: 5px; /* Further reduce padding for mobile screens */
+    }
+    .skill-container img {
+      width: 40px; /* Reduce image size for mobile screens */
+    }
+    .skill-container h3 {
+      font-size: 18px; /* Decrease font size for mobile screens */
+    }
+  }

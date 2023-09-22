@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Left side of the header */
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Linked images */
+.linked-images a {
+  margin: 5px;
+}
+
+.linked-images img {
+  width: 40px;
+  height: auto;
+}
+
+/* Right side of the header (image) */
+.header-right img {
+  width: 120px;
+  height: auto;
+}
+
+/* Responsive styles for screens with a maximum width of 768px (typical tablet size) */
+@media (max-width: 768px) {
+  /* Adjust the overall padding for smaller screens */
+  .header {
+    padding: 10px;
+  }
+
+  /* Decrease the logo size */
+  .logo img {
+    width: 40px;
+  }
+
+  /* Decrease the linked image size */
+  .linked-images img {
+    width: 30px;
+  }
+
+  /* Decrease the right side image size */
+  .header-right img {
+    width: 80px;
+  }
+}
+
+/* Responsive styles for screens with a maximum width of 576px (typical mobile size) */
+@media (max-width: 576px) {
+  /* Further reduce overall padding for mobile screens */
+  .header {
+    padding: 5px;
+  }
+
+  /* Decrease the logo size */
+  .logo img {
+    width: 30px;
+  }
+
+  /* Decrease the linked image size */
+  .linked-images img {
+    width: 20px;
+  }
+
+  /* Decrease the right side image size */
+  .header-right img {
+    width: 60px;
+  }
+}
+  
